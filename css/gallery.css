@@ -1,0 +1,29 @@
+/*Changing the font color and background color of page and aligning the contents in the centre  */
+body{
+    background-color:beige;
+    color:blue;
+    text-align: center;
+}
+/* Puting the packground color and putting the caption in the centre below the figure frame */
+figure>figcaption{
+    background-color: #8ebf42;
+    height:40px;
+    align-items: center;
+    width: 80%;
+    margin-left: 10%;
+    font-size: large;
+}
+/* Displaying flex with wrap so that img will move to next line if needed and removed the bullet points using none list-style */
+ul{
+    display: flex;
+    flex-wrap: wrap;
+    list-style-type: none;
+    justify-content:space-around;
+}
+/* Garying the images by default */
+li > img{
+    filter: grayscale(60%);
+}
+
+
+
